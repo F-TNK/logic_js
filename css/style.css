@@ -1,0 +1,24 @@
+.resultado,
+.ok,
+.alerta,
+.erro {
+  padding: 1rem;
+  border-radius: 8px;
+  border-left: 6px solid var(--cor-texto);
+  background: var(--cor-suave);
+}
+.ok {
+  border-color: #2e7d32;
+  background: #e8f5e9;
+  white-space: pre-line;
+}
+.alerta {
+  border-color: #f9a825;
+  background: #fff8e1;
+  white-space: pre-line;
+}
+.erro {
+  border-color: #c62828;
+  background: #ffebee;
+  white-space: pre-line;
+}
