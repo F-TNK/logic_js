@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conta | Lógica com JS</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="page">
+        <a href="../index.html">MENU</a>
+      </div>
+    </header>
+    <main>
+      <article class="conta">
+        <h1>Cauculo da Conta</h1>
+
+        <label for="val">Valor da Conta</label>
+        <input type="number" id="val" step="0.01" />
+
+        <label for="pessoas">N° de Pessoas</label>
+        <input type="number" id="pessoas" />
+
+        <button id="calc" class="calc">Calcular</button>
+
+        <p id="servico" class="servico">Valor da taxa de serviço:</p>
+        <p id="total" class="total">Valor total da conta:</p>
+        <p id="porPessoa" class="porPessoa">Valor por pessoa:</p>
+      </article>
+    </main>
+
+    <script src="js/conta.js"></script>
+  </body>
+</html>

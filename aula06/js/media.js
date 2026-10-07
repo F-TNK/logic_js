@@ -1,5 +1,3 @@
-console.log("ligou");
-
 const botao = document.querySelector("#calcular");
 const saida = document.querySelector("#resultado");
 

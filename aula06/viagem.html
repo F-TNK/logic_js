@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viagem | Lógica com JS</title>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="page">
+        <a href="../index.html">MENU</a>
+      </div>
+    </header>
+    <main>
+      <article class="viagem">
+        <h1>Calculo do Custo de Viagem</h1>
+
+        <label for="distancia">Distância (Km)</label>
+        <input type="number" name="distancia" id="distancia" step="0.1" />
+
+        <label for="consumo">Km por Litro</label>
+        <input type="number" name="consumo" id="consumo" step="0.1" />
+
+        <label for="preco">Preço do Litro</label>
+        <input type="number" name="preco" id="preco" step="0.01" />
+
+        <button id="calc" class="calc">Calcular</button>
+        <p id="litrosGastos" class="litrosGastos">Litros Necessários:</p>
+        <p id="ida" class="ida">Custo de Ida:</p>
+        <p id="idaVolta" class="idaVolta">Custo de Ida e Volta:</p>
+      </article>
+    </main>
+
+    <script src="js/viagem.js"></script>
+  </body>
+</html>
+<!-- Consumo = 0 gera resultado "Infinity" para todos os valores finais -->

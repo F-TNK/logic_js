@@ -1,5 +1,3 @@
-console.log("ligado");
-
 const button = document.querySelector("#calc");
 const pFinal = document.querySelector("#pFinal");
 

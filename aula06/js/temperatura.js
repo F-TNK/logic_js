@@ -1,5 +1,3 @@
-console.log("ligou");
-
 const botao = document.querySelector("#convert");
 const result = document.querySelector("#resultado");
 
