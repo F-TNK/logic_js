@@ -57,6 +57,8 @@ nav a:hover {
   background-color: #dbdbd4;
   padding: 30px;
   border-radius: 40px;
+  margin-left: 120px;
+  margin-right: 120px;
 }
 
 .page a {
